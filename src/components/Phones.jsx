@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { ProductsData } from "./ProductsData";
 
-const PhonesTablets = () => {
+const Phones = () => {
   const [data, setData] = useState([]);
   const { productsData, setProductsData } = useContext(ProductsData);
   const navigate = useNavigate();
@@ -46,4 +46,4 @@ const PhonesTablets = () => {
   );
 };
 
-export default PhonesTablets;
+export default Phones;

@@ -6,7 +6,7 @@ import Products from "./pages/Products";
 import Cart from "./pages/Cart";
 import ProductInfo from "./components/ProductInfo";
 import Automobiles from "./components/Automobiles";
-import PhonesTablets from "./components/PhonesTablets";
+import Phones from "./components/Phones";
 import Computers from "./components/Computers";
 import { ProductsData } from "./components/ProductsData";
 import "./App.css";
@@ -21,7 +21,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/products" element={<Products />}>
-              <Route path="phones-tablets" element={<PhonesTablets />} />
+              <Route path="phones" element={<Phones />} />
               <Route path="computers" element={<Computers />} />
               <Route path="automobiles" element={<Automobiles />} />
               <Route path=":id" element={<ProductInfo />} />

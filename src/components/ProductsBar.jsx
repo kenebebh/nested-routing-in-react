@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const ProductsBar = () => {
   return (
     <div className="productBar">
-      <Link to="phones-tablets" className="productBarLink">
-        Phones & Tablets
+      <Link to="phones" className="productBarLink">
+        Phones
       </Link>
       <Link to="computers" className="productBarLink">
         Computers
