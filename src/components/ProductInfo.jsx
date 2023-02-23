@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { ProductsData } from "./ProductsData";
 
 const ProductInfo = () => {
-  const { productsData, setProductsData } = useContext(ProductsData);
+  const { productsData } = useContext(ProductsData);
   const { id } = useParams();
 
   return (
